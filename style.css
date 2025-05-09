@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+body {
+    background-color: #121212;
+}
+
+#prima {
+    background-color: #2b2b2b ;
+}
+
+.cabeca {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px;
+}
+
+.escrito {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    padding-top: 5px;
+}
+
+.tudo {
+    margin: 100px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.textos {
+    display: flex;
+    flex-direction: row;
+    gap: 30px; 
+}
+
+.strogonoff {
+    background-color: #2b2b2b;
+    padding: 30px;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+.strogonoff:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.lasanha {
+    background-color: #2b2b2b;
+    padding: 30px;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+.lasanha:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.churrasco {
+    background-color: #2b2b2b;
+    padding: 30px;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+.churrasco:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.empadao {
+    background-color: #2b2b2b;
+    padding: 30px;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+.empadao:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.jilo{
+    background-color: #2b2b2b;
+    padding: 30px;
+    border-radius: 20px;    
+    transition: 0.5s;
+}
+
+.jilo:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+#txt1 {
+    font-size: 40px;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+#txt2 {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    .prato {
+      margin-bottom: 10px;
+    }
+
+    .nome {
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+
+    .barra-container {
+      display: flex;
+      align-items: center;
+      background-color: #ddd;
+      border-radius: 20px;
+      overflow: hidden;
+      height: 30px;
+    }
+
+    .barra {
+      height: 100%;
+      width: 0;
+      background: linear-gradient(to right, #041e94, #2b0472);
+      animation: preencher 2s ease-out forwards;
+    }
+
+    .valor {
+      margin-left: 10px;
+      min-width: 30px;
+      color: #121212;
+    }
+
+    @keyframes preencher {
+      to {
+        width: var(--largura);
+      }
+    }
